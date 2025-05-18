@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="highScore" fx:id="highScore" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" styleClass="highScore" stylesheets="@HighScore.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testers.HighScoreController">
+   <children>
+      <Label layoutX="88.0" text="HighScore" textFill="WHITE">
+         <font>
+            <Font name="Chalkduster" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="70.0" text="Name" textFill="WHITE">
+         <font>
+            <Font name="Chalkduster" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="70.0" text="Level" textFill="WHITE">
+         <font>
+            <Font name="Chalkduster" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="277.0" layoutY="70.0" text="Score" textFill="WHITE">
+         <font>
+            <Font name="Chalkduster" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="highScoreBackButton" layoutX="14.0" layoutY="332.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>
