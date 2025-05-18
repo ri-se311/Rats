@@ -1,4 +1,4 @@
-# Rats game  on an oldie from way back!
+# Rats, a game an oldie from way back!
 
 
 ## Installation
